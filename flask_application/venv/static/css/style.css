@@ -1,0 +1,51 @@
+.skill{
+  transition: transform .3s;
+}
+.skill:hover{
+  transform: scale(1.03);
+}
+.image{
+  width: 100%;
+  float: left;
+}
+
+/* booking styles */
+.seat{
+  background-color: #C4C4C4;
+  height:20px;
+  width: 20px;
+  /* margin: 5px 15px; */
+}
+.ro{
+  display: flex;
+}
+.occupied{
+  background-color: black;
+}
+.selected{
+  background-color: crimson;
+}
+.seat:not(.occupied):hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* tables styles */
+.ta{
+  width: 100%
+}
+
+/* background items */
+.bck{
+  background-image: url(img/stetho.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* transparent card */
+.crd{
+  position:relative;
+  opacity: 0.7;
+  box-shadow: 2px 2px;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DEVS</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel=stylesheet type=text/css href="{{ url_for('static/css', filename='style.css') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui-icon@2.3.3/icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid py-2">
+      <a class="navbar-brand" href="#">DEVS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link " href="index.html">HOME</a>
+          <a class="nav-link" href="inquiry.html">INQUIRY</a>
+          <a class="nav-link active" href="book.html">BOOK</a>
+          <a class="nav-link" href="about.html">ABOUT US</a>
+          <!-- <a class="nav-link" href="#">logout</a> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid py-2 bck">
+    <div class="row">
+      <div class="col-sm-7">
+        <div class="card skill crd">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/user.png" alt="" class="image">
+              </div>
+              <div class="col-9">
+                <p>NAME: DR.LISBON FRANK</p>
+                <p>DERMATOLOGIST</p>
+                <p>WORKING HOURS: WEEKDAYS</p>
+                <p>HOSPITAL:AGA KHAN</p>
+                <p>LOCATION: MASAKI</p>
+              </div>
+              <div class="col-12 my-1">
+                <div class="card cont shadow px-5 py-3 my-3">
+                  <h4>Book a free slot</h4>
+                  <table class="table table-responsive">
+                    <tr>
+                      <th></th>
+                      <th>M</th>
+                      <th>T</th>
+                      <th>W</th>
+                      <th>T</th>
+                      <th>F</th>
+                    </tr>
+                    <tr>
+                      <th>Morning</th>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat occupied"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                    </tr>
+                    <tr>
+                      <th>afternoon</th>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat occupied"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                    </tr>
+                    <tr>
+                      <th>evening</th>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat"></div> </td>
+                      <td> <div class="seat occupied"></div> </td>
+                      <td> <div class="seat "></div> </td>
+                    </tr>
+                  </table>
+                  <!-- <div class="ro">
+                    <div class="seat "></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="ro">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                  </div>
+                  <div class="ro">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                  </div> -->
+                </div>
+                <a class="btn btn-secondary" href="#" role="button">CONFIRM</a>
+                <a class="btn btn-secondary" href="#" role="button">CANCEL</a>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="card skill crd my-1">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/user.png" alt="" class="image">
+              </div>
+              <div class="col-9">
+                <li>NAME: DR.CHAPMAN BOAZ</li>
+                <li>DERMATOLOGIST</li>
+                <li>WORKING HOURS: WEEKDAYS</li>
+                <li>HOSPITAL:AGA KHAN</li>
+                <li>LOCATION: MASAKI</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card skill crd my-1">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/user.png" alt="" class="image">
+              </div>
+              <div class="col-9">
+                <li>NAME: DR.LISBON FRANK</li>
+                <li>DERMATOLOGIST</li>
+                <li>WORKING HOURS: WEEKDAYS</li>
+                <li>HOSPITAL:AGA KHAN</li>
+                <li>LOCATION: MASAKI</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card skill crd  my-1">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/user.png" alt="" class="image">
+              </div>
+              <div class="col-9">
+                <li>NAME: DR.LISBON FRANK</li>
+                <li>DERMATOLOGIST</li>
+                <li>WORKING HOURS: WEEKDAYS</li>
+                <li>HOSPITAL:AGA KHAN</li>
+                <li>LOCATION: MASAKI</li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card skill crd  my-1">
+          <div class="container py-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/user.png" alt="" class="image">
+              </div>
+              <div class="col-9">
+                <li>NAME: DR.LISBON FRANK</li>
+                <li>DERMATOLOGIST</li>
+                <li>WORKING HOURS: WEEKDAYS</li>
+                <li>HOSPITAL:AGA KHAN</li>
+                <li>LOCATION: MASAKI</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="script.js" charset="utf-8"></script>
+  <script src="https://kit.fontawesome.com/e147b7134a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
